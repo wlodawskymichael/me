@@ -1,9 +1,23 @@
 html {
     background-image: url(./attributes/Background.jpg);
     background-size: cover;
+    background-color: black;
 }
 
-body {
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 70px;
+    padding-top: 25px;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    padding-left: 10px;
+}
+
+.content {
     margin: auto;
     margin-top: 5%;
     width: 400px;
@@ -16,5 +30,27 @@ body {
     color: white;
     font-size: 32px;
     font-weight: bold;
-    
+    padding-top: 15px;
+}
+
+.profile-pic {
+    display: block;
+    margin-left: 100px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.attribute {
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.about-me {
+    color: white;
+    padding: 8px;
+    text-align: center;
 }
